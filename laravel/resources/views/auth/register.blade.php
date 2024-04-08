@@ -64,8 +64,8 @@
                         <span class="ml-2">Student</span>
                     </label>
                     <label class="inline-flex items-center ml-6">
-                        <input type="radio" class="form-radio" name="usertype" value="admin">
-                        <span class="ml-2">Admin</span>
+                        <input type="radio" class="form-radio" name="usertype" value="landlord">
+                        <span class="ml-2">Landlord</span>
                     </label>
                 </div>
             </div>
