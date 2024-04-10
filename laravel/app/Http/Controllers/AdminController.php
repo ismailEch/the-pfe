@@ -12,8 +12,8 @@ class AdminController extends Controller
             $usertype = Auth()->user()->usertype;
             if($usertype == "student"){
                 return view('student.home');
-            }else if($usertype == "admin"){
-                return view('admin.home');
+            }else if($usertype == "landlord"){
+                return view('landlord.home');
             }
         }else{
             return redirect()->back();
