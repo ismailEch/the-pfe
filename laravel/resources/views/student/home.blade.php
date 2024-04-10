@@ -82,7 +82,7 @@
 
             @if (Route::has('login'))
             @auth
-                <a href="" class="nav-item nav-link">My Reservation</a>
+                <a href="" class="nav-item nav-link">My reservation</a>
                 <x-app-layout>
                 </x-app-layout> 
             @else
